@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>bamazondb</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>name</key>
+			<string>127.0.0.1</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJX
+			TlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAF
+			gAdUdHlwZVRyb3dzXxAdU2VsZWN0aW9uRGV0YWlsVHlwZU5TSW5k
+			ZXhTZXTSFwsYGVxOU1JhbmdlQ291bnQQAIAG0hscHR5aJGNsYXNz
+			bmFtZVgkY2xhc3Nlc1pOU0luZGV4U2V0oh8gWk5TSW5kZXhTZXRY
+			TlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVk
+			QXJjaGl2ZXLRJidUZGF0YYABAAgAEQAaACMALQAyADcAQABGAE0A
+			VQBgAGcAagBsAG4AcQBzAHUAdwB8AIEAoQCmALMAtQC3ALwAxwDQ
+			ANsA3gDpAPIA9wEEAQcBGQEcASEAAAAAAAACAQAAAAAAAAAoAAAA
+			AAAAAAAAAAAAAAABIw==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {694, 450}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>DROP DATABASE IF EXISTS bamazonDB;
+CREATE DATABASE bamazonDB;
+USE bamazonDB;
+CREATE TABLE products (
+	item_id INT NOT NULL,
+	product_name VARCHAR(45) NULL,
+	department_name VARCHAR(45) NULL,
+	price DECIMAL (10, 2) NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (item_id)
+);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (01, "How-to pet a cat DVD", "Self-improvement", 9.99, 75);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (02, "Programming for Dummies", "Technology", 29.99, 40);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (03, "Used MacBooks", "Technology", 899.95, 5);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (04, "iPhone 20 Crystal Case", "Future", 49, 15);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (05, "XL I can haz cheezeburger Tee", "Clothing", 30, 20);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (06, "Surfboard", "Sports Equipment", 400, 7);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (07, "Holographic Rubik's Cube", "Toys", 19.99, 30);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (08, "Short-shorts", "Clothing", 29, 5);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (09, "Grass Scented Bath Bombs", "Health and Beauty", 5.99, 60);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (10, "A Single Grain of Rice", "Food", 0.01, 100000000);
+
+
+SELECT * FROM products</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>118</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>SELECT * FROM products</string>
+		<string>DROP DATABASE IF EXISTS bamazonDB;
+CREATE DATABASE bamazonDB;
+USE bamazonDB;
+CREATE TABLE products (
+	item_id INT NOT NULL,
+	product_name VARCHAR(45) NULL,
+	department_name VARCHAR(45) NULL,
+	price DECIMAL (10, 2) NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (item_id)
+);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (01, "How-to pet a cat DVD", "Self-improvement", 9.99, 75);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (02, "Programming for Dummies", "Technology", 29.99, 40);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (03, "Used MacBooks", "Technology", 899.95, 5);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (04, "iPhone 20 Crystal Case", "Future", 49, 15);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (05, "XL I can haz cheezeburger Tee", "Clothing", 30, 20);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (06, "Surfboard", "Sports Equipment", 400, 7);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (07, "Holographic Rubik's Cube", "Toys", 19.99, 30);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (08, "Short-shorts", "Clothing", 29, 5);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (09, "Grass Scented Bath Bombs", "Health and Beauty", 5.99, 60);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (10, "A Single Grain of Rice", "Food", 0.01, 100000000);
+SELECT * FROM products</string>
+		<string>DROP DATABASE IF EXISTS bamazonDB;
+CREATE DATABASE bamazonDB;
+USE bamazonDB;
+CREATE TABLE products (
+	item_id INT NOT NULL,
+	product_name VARCHAR(45) NULL,
+	department_name VARCHAR(45) NULL,
+	price DECIMAL (10, 2) NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (item_id)
+);
+INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
+VALUES (01, "How-to DVD", "Self-improvement", 9.99, 75)</string>
+		<string>DROP DATABASE IF EXISTS bamazonDB;
+CREATE DATABASE bamazonDB;
+USE bamazonDB;
+CREATE TABLE products (
+	item_id INT NOT NULL,
+	product_name VARCHAR(45) NULL,
+	department_name VARCHAR(45) NULL,
+	price DECIMAL (10, 2) NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (item_id)
+);
+INSERT INTO products
+VALUES (01, "How-to DVD", "Self-improvement", 9.99, 75)</string>
+		<string>DROP DATABASE IF EXISTS bamazonDB;
+CREATE DATABASE bamazonDB;
+USE bamazonDB;
+CREATE TABLE products (
+	item_id INT NOT NULL,
+	product_name VARCHAR(45) NULL,
+	department_name VARCHAR(45) NULL,
+	price DECIMAL (10, 2) NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (item_id)
+);
+INSERT INTO products;
+VALUES (01, "How-to DVD", "Self-improvement", 9.99, 75)</string>
+		<string>DROP DATABASE IF EXISTS bamazonDB;
+CREATE DATABASE bamazonDB;
+USE bamazonDB;
+CREATE TABLE products (
+	item_id INT NOT NULL,
+	product_name VARCHAR(45) NULL,
+	department_name VARCHAR(45) NULL,
+	price DECIMAL (10, 2) NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (item_id)
+)</string>
+		<string>DROP DATABASE IF EXISTS bamazonDB;
+CREATE DATABASE bamazonDB;
+USE bamazonDB;
+CREATE TABLE products (
+	item_id INT NOT NULL,
+	product_name VARCHAR(45) NULL,
+	department_name VARCHAR(45) NULL,
+	price DECIMAL (10, 2) NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (item_id),
+)</string>
+		<string>DROP DATABSE IF EXISTS bamazonDB;
+CREATE DATABASE bamazonDB;
+USE bamazonDB;
+CREATE TABLE products (
+	item_id INT NOT NULL,
+	product_name VARCHAR(45) NULL,
+	department_name VARCHAR(45) NULL,
+	price DECIMAL (10, 2) NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (item_id),
+)</string>
+		<string>DROP DATABSE IF EXISTS bamazonDB;
+CREATE DATABASE bamazonDB;
+USE bamazonDB;
+CREATE TABLE products (
+	item_id INT NOT NULL,
+	product_name VARCHAR(45) NULL,
+	department_name VARCHAR(45) NULL,
+	price DECIMAL (10, 2) NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (item_id)
+)</string>
+		<string>SELECT top3000.artist, top3000.albums, Top5000.song, top3000.year
+FROM Top5000
+LEFT JOIN top3000 ON top3000.year = Top5000.year AND top3000.artist = Top5000.artist</string>
+		<string>SELECT top3000.artist, top3000.albums, Top5000.song, top3000.year
+FROM top3000
+LEFT JOIN Top5000 ON top3000.year = Top5000.year AND top3000.artist = Top5000.artist</string>
+		<string>SELECT top3000.artist, top3000.albums, Top5000.song, top3000.year
+FROM top3000
+INNER JOIN Top5000 ON top3000.year = Top5000.year AND top3000.artist = Top5000.artist</string>
+		<string>SELECT top3000.artist, Top5000.artist, top3000.albums, Top5000.song, top3000.year, top5000.year
+FROM top3000
+INNER JOIN Top5000 ON top3000.year = Top5000.year AND top3000.artist = Top5000.artist</string>
+		<string>SELECT top3000.artist, Top5000.artist, top3000.album, Top5000.song, top3000.year, top5000.year
+FROM top3000
+INNER JOIN Top5000 ON top3000.year = Top5000.year AND top3000.artist = Top5000.artist</string>
+		<string>SELECT top3000.artist, Top5000.artist
+FROM top3000
+INNER JOIN Top5000 ON top3000.year = Top5000.year AND top3000.artist = Top5000.artist</string>
+		<string>SELECT top3000.artist, Top5000.artist
+FROM top3000
+INNER JOIN Top5000 ON top3000.year = Top5000.year AND top3000,artist = TOP5000.artist</string>
+		<string>SELECT top3000.artist, Top5000.artist
+FROM top3000
+INNER JOIN Top5000 ON top3000.year = Top5000.year AND top3000,artist = Top5000.artist</string>
+		<string>SELECT top3000.artist, Top5000.artist
+FROM top3000
+INNER JOIN Top5000 ON top3000.year = Top5000.year</string>
+		<string>SELECT * FROM top3000;
+SELECT * FROM TOP5000</string>
+		<string>SELECT top3000.artist, Top5000.artist
+FROM Top5000
+INNER JOIN Top5000 ON top3000.year = Top5000.year</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.6.38</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
