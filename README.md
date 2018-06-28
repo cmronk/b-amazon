@@ -16,4 +16,9 @@ This second view shows the manager view which allows for inventory management.
 
 As shown above, managers can view all stock quantities as well as low quantities, update and order more stock, and order new products.
 
-I utilized MySQL databases as well as the [mysql npm package](https://www.npmjs.com/package/mysql), [Node.js](https://nodejs.org/en/), the [Inquirer npm package](https://www.npmjs.com/package/inquirer), and the [Cli-table npm package](https://www.npmjs.com/package/cli-table).
+I utilized MySQL databases 
+
+![mySQL](https://media.giphy.com/media/vMaWclOqhC9yEIATth/giphy.gif)
+
+
+as well as the [mysql npm package](https://www.npmjs.com/package/mysql), [Node.js](https://nodejs.org/en/), the [Inquirer npm package](https://www.npmjs.com/package/inquirer), and the [Cli-table npm package](https://www.npmjs.com/package/cli-table).
